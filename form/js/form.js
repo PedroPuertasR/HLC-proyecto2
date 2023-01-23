@@ -3,6 +3,15 @@ document.getElementById("apellidos").addEventListener("blur", pasarApellidosAMay
 document.getElementById("email").addEventListener("blur", comprobarEmail);
 document.getElementById("telefono").addEventListener("blur", comprobarTelefono);
 
+let dialog = document.getElementById('myDialog');
+document.getElementById('openDialog').addEventListener('click', function() {
+  dialog.show();
+});
+
+document.getElementById('closeDialog').addEventListener('click', function() {
+    dialog.close();
+});
+
 function revisarformularioCita() {
     let resultado = false;
 
