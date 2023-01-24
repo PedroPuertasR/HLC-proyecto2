@@ -125,14 +125,15 @@ footer {
     color: rgb(64, 99, 255);
 }
 
-.form{
-    background-color: black;
-}
-
-.submit{
-    background-color: black;
-}
-
 .mensajeError{
     visibility: hidden;
+}
+
+input{
+    width: 160px;
+}
+
+form{
+    background-color: rgba(128, 128, 128, 0.336);
+    border-radius: 5%;
 }
