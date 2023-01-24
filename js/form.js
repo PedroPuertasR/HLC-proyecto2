@@ -3,20 +3,11 @@ document.getElementById("apellidos").addEventListener("blur", pasarApellidosAMay
 document.getElementById("email").addEventListener("blur", comprobarEmail);
 document.getElementById("telefono").addEventListener("blur", comprobarTelefono);
 
-let dialog = document.getElementById('myDialog');
-document.getElementById('openDialog').addEventListener('click', function() {
-  dialog.show();
-});
-
-document.getElementById('closeDialog').addEventListener('click', function() {
-    dialog.close();
-});
-
 function revisarformularioCita() {
     let resultado = false;
 
     resultado = pasarNombreAMayus() &&
-        pasarApellidosAMayus &&
+        pasarApellidosAMayus() &&
         comprobarEmail() &&
         comprobarTelefono();
 
@@ -25,13 +16,19 @@ function revisarformularioCita() {
     return resultado;
 }
 
-function pasarNombreAMayus(){
+document.getElementById("formularioCita").onsubmit = function() {alerta()};
+
+function alerta(){
+    alert('Se ha enviado');
+}
+
+function pasarNombreAMayus() {
 
     let campoNombre = formularioCita.nombre;
 
     let resultado = campoNombre.value !== "";
 
-    if(resultado){
+    if (resultado) {
         campoNombre.value = campoNombre.value.toUpperCase();
     }
 

@@ -29,7 +29,7 @@
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <h1>HLC-Practica1</h1>
+            <h1>HLC-Practica2</h1>
         </a>
 
         <nav class="dropdown dropstart">
@@ -51,7 +51,7 @@
     <main>
         <section id="seccion-main">
             <h2>LOREM IPSUM</h2>
-            <article id="formulario">
+            <article>
                 <h3>What is Lorem Ipsum</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -132,16 +132,17 @@
             </div>
             <div class="offcanvas-body">
                 <form id="formularioCita" name="Formulario de reserva" method="GET" data-aos="fade-up"
-                    onsubmit="return revisarFormularioCita()">
+                    onsubmit="alerta()">
                     <fieldset class="p-3">
-                        <legend class="text-center">Contacto</legend>
+
+                        <legend class="text-center"><hr></legend>
 
                         <div class="d-flex flex-row">
 
                             <div class="d-flex flex-column">
                                 <div class="mb-1 mt-3 me-3">
                                     <label class="me-3" for="nombre">Nombre</label>
-                                    <input class="border border-black-3" type="text" name="nombre" id="nombre" required>
+                                    <input class="border border-black-3" placeholder="Introduzca su texto" type="text" name="nombre" id="nombre" required>
                                 </div>
 
                                 <div class="mensajeError text-danger" id="errorNombre">Nombre no válido.</div>
@@ -150,7 +151,7 @@
                             <div>
                                 <div class="mb-1 mt-3">
                                     <label class="me-3" for="apellidos">Apellidos</label>
-                                    <input class="border border-black-3" type="text" name="apellidos" id="apellidos"
+                                    <input class="border border-black-3" placeholder="Introduzca su texto" type="text" name="apellidos" id="apellidos"
                                         required>
                                 </div>
 
@@ -174,7 +175,7 @@
                             <div class="d-flex flex-column">
                                 <div class="mb-3 mt-3">
                                     <label class="me-3" for="telefono">Teléfono</label>
-                                    <input class="border border-black-3" type="number" name="telefono" id="telefono"
+                                    <input class="border border-black-3" placeholder="Introduzca su teléfono" type="number" name="telefono" id="telefono"
                                         required>
                                 </div>
 
@@ -182,7 +183,7 @@
                             </div>
 
                         </div>
-                        <button type="submit" data-bs-toggle="offcanvas" data-bs-target="#form" class="btn btn-light mt-3">Enviar</button>
+                        <button id="submit" type="submit" class="btn btn-light mt-3">Enviar</button>
                     </fieldset>
                 </form>
             </div>
@@ -230,7 +231,7 @@
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2023 Copyright:
-            <a class="text-white" href="index.html">HLC-Practica1.com</a>
+            <a class="text-white" href="index.html">HLC-Practica2.com</a>
         </div>
         <!-- Copyright -->
     </footer>
