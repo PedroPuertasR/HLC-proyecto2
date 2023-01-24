@@ -118,6 +118,9 @@ footer {
 }
 
 
-/*HLC-2
+/*HLC-2*/
 
-*/
+.contacto{
+    text-decoration: dotted;
+    color: rgb(64, 99, 255);
+}
