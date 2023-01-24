@@ -29,3 +29,13 @@ footer {
 #copy {
     background-color: #7a3e48;
 }
+
+#seccion-main {
+    border: 8px double #7a3e48;
+    background-color: #e18942;
+}
+
+article {
+    background:#eecd86;
+    border: 3px dashed #7a3e48;
+}
