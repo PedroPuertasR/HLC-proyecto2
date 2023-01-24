@@ -1,0 +1,31 @@
+header {
+    background: linear-gradient(45deg, #b95835, #eecd86);
+}
+
+#logo-main {
+    color: #3d3242;
+}
+
+body {
+    background-color: #3d3242;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    background: #7a3e48; 
+}
+
+hr {
+    border-width: 3px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #b95835;
+}
+
+#copy {
+    background-color: #7a3e48;
+}
