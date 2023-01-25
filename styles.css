@@ -52,6 +52,7 @@ header {
     width: 100%;
     padding: 30px 100px;
     background: linear-gradient(45deg, white, transparent);
+    z-index: 5;
 }
 
 #logo-main {
@@ -118,7 +119,7 @@ footer {
 
 
 /*=====================================
-======== BOTON MENU NAVBAR=============
+======== BOTON MENU NAVBAR ============
 =====================================*/
 .button {
     display: inline-block;
@@ -138,3 +139,25 @@ footer {
     box-shadow: 0 5px #555;
     transform: translateY(4px);
   }
+
+  
+/*=====================================
+======== FORMULARIO JAVASCRIPT ========
+=====================================*/
+.contacto{
+  text-decoration: dotted;
+  color: rgb(64, 99, 255);
+}
+
+.mensajeError{
+  visibility: hidden;
+}
+
+input{
+  width: 160px;
+}
+
+form{
+  background-color: rgba(128, 128, 128, 0.336);
+  border-radius: 5%;
+}
