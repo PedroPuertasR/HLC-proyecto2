@@ -12,7 +12,7 @@ h1 {
 h2{
     text-align: center;
     font-size: 38pt;
-    text-shadow: red;
+    text-shadow: 3px 3px rgb(111,16,244);
     color: white;
     font-weight: bold;
 }
