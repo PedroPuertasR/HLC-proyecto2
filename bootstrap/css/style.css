@@ -17,6 +17,15 @@ h2{
     font-weight: bold;
 }
 
+h3{
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+article{
+    margin-top: 5%;
+}
+
 header {
     width: 100%;
     padding: 30px 100px;
@@ -44,7 +53,6 @@ nav{
     border-radius: 50px;
     padding: 50px;
     background-color: rgb(157, 95, 245);
-    float: left;
 }
 
 @media screen and (max-width = 50%){
