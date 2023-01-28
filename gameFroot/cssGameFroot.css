@@ -1,5 +1,6 @@
 header {
     background: linear-gradient(45deg, #b95835, #eecd86);
+    z-index: 1;
 }
 
 #logo-main {
@@ -38,4 +39,20 @@ footer {
 article {
     background:#eecd86;
     border: 3px dashed #7a3e48;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+div > p {
+    color: dimgrey;
+    font-weight: bold;
+}
+
+article > p, li > p{
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid #e18942;
+    border-radius: 10px;
 }
