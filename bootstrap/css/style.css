@@ -11,15 +11,53 @@ h1 {
 
 h2{
     text-align: center;
-    font-size: 38pt;
+    font-size: 42pt;
     text-shadow: 3px 3px rgb(111,16,244);
     color: white;
     font-weight: bold;
 }
 
 h3{
-    margin-left: 15%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    text-decoration: overline;
+}
+
+.row{
+    margin-bottom: 5%;
+}
+
+p{
+    color: white;
+    font-weight: 600;
+    text-align: justify;
+    margin: 0 20% 0 20%;
+    font-style: normal;
+    font-size: 18pt;
+}
+
+article>ul{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+li{
+    margin-bottom: 4%;
+}
+
+section img{
+    margin: auto;
+    display: block;
+}
+
+.ejemplo{
+    width: 100%;
 }
 
 article{
@@ -44,17 +82,14 @@ nav{
 #logoDrop{
     padding-left: 35px;
     font-size: 30pt;
+    color: white;
 }
 
 #seccion-main {
     width: 90%;
-    margin: 80px 0 280px 50px;
+    margin: 80px 0 80px 50px;
     border: 8px solid rgb(111,16,244);
     border-radius: 50px;
     padding: 50px;
     background-color: rgb(157, 95, 245);
-}
-
-@media screen and (max-width = 50%){
-    
 }
