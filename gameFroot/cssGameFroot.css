@@ -1,0 +1,58 @@
+header {
+    background: linear-gradient(45deg, #b95835, #eecd86);
+    z-index: 1;
+}
+
+#logo-main {
+    color: #3d3242;
+}
+
+body {
+    background-color: #3d3242;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    background: #7a3e48; 
+}
+
+hr {
+    border-width: 3px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #b95835;
+}
+
+#copy {
+    background-color: #7a3e48;
+}
+
+#seccion-main {
+    border: 8px double #7a3e48;
+    background-color: #e18942;
+}
+
+article {
+    background:#eecd86;
+    border: 3px dashed #7a3e48;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+div > p {
+    color: dimgrey;
+    font-weight: bold;
+}
+
+article > p, li > p{
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid #e18942;
+    border-radius: 10px;
+}
