@@ -125,3 +125,56 @@ seccion-main {
     width: 100%;
     z-index: -20;
 }
+
+#logo-main {
+    font-size: 70px;
+    color: lightskyblue;
+}
+
+#logoDrop{
+   padding-left: 35px; 
+    color: lightskyblue;
+    font-size: 30pt;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    background-color: #889ccf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #5878ca}
+  
+  .button:active {
+    background-color: #5878ca;
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
+  }
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer h4, footer a{
+    color: black;
+   
+}
+
+h1 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
