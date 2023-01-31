@@ -22,139 +22,231 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        function showAlert() {
-            alert("Descarga no disponible");
-        }
-        function modificarDom() {
 
-            document.getElementById("angular").style.background = "#399dd6";
-        }
-    </script>
 </head>
 
+<body>
+
+    <header class="d-flex">
+
+        <a href="../index.html" class="d-flex align-items-center me-md-auto text-decoration-none">
+            <i id="logo-main" class="bi bi-github"></i>
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <h1>HLC-Practica2</h1>
+        </a>
+
+        <nav class="dropdown dropstart">
+            <button type="button" class="button" data-bs-toggle="dropdown">
+                <i id="logoDrop" class="bi bi-github"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Angular.html">Framework</a></li>
+                <li><a class="dropdown-item" href="../gameFroot/gameFroot.html">Juegos</a></li>
+                <li><a class="dropdown-item" href="../bootstrap/bootstrap.html">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="JQuery.html">JQuery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="seccion-main">
+
+            <h2>JQUERY: write less, do more</h2>
+
+            <article>
+                <h3>¿Qué es JQuery?</h3>
+
+                <p>jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones. Simplifica enormemente
+                    tareas
+                    como el recorrido y la manipulación
+                    de documentos HTML, la gestión de eventos, la animación y Ajax, gracias a una API fácil de usar que
+                    funciona
+                    en multitud de navegadores.
+                    Con una combinación de versatilidad y extensibilidad, jQuery ha cambiado la forma en que millones de
+                    personas escriben JavaScript.
+                </p>
+
+                <object data='https://www.youtube.com/embed/DVN8NWppCN0?autoplay=1' width='560px' height='315px'>
+                </object>
+
+                <h3>Los principios de desarrollo con JQuery</h3>
+                <p>
+                    - La separación de JavaScript y HTML: La biblioteca jQuery proporciona la sintaxis simple para
+                    añadir
+                    eventos manipuladores a la DOM utilizando JavaScript,
+                    en lugar de añadir eventos atributos HTML para llamar a funciones de JavaScript. Por lo tanto,
+                    alienta a los
+                    desarrolladores a separar completamente el
+                    código JavaScript del marcado HTML.
+
+                    - Brevedad y claridad: JQuery promueve la brevedad y la claridad con funciones como funciones
+                    "chainable" y
+                    nombres de funciones abreviados.
+
+                    - Eliminación de incompatibilidades entre navegadores: Los motores de JavaScript de diferentes
+                    navegadores
+                    difieren ligeramente, por lo que el código JavaScript que funciona para un navegador puede no
+                    funcionar para
+                    otro. Al igual que otros kits de herramientas de JavaScript, jQuery maneja todas estas
+                    inconsistencias en
+                    varios navegadores y proporciona una interfaz consistente que funciona en diferentes navegadores.
+
+                    - Extensibilidad: Los nuevos eventos, elementos y métodos pueden agregarse fácilmente y luego
+                    reutilizarse
+                    como un complemento.</p>
 
 
-<section id="seccion-main">
-
-    <h2>JQUERY: write less, do more</h2>
-
-    <article>
-        <h3>¿Qué es JQuery?</h3>
-
-        <p>jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones. Simplifica enormemente tareas
-            como el recorrido y la manipulación
-            de documentos HTML, la gestión de eventos, la animación y Ajax, gracias a una API fácil de usar que funciona
-            en multitud de navegadores.
-            Con una combinación de versatilidad y extensibilidad, jQuery ha cambiado la forma en que millones de
-            personas escriben JavaScript.
-        </p>
-
-        <object data='https://www.youtube.com/embed/DVN8NWppCN0?autoplay=1' width='560px' height='315px'>
-        </object>
-
-        <h3>Los principios de desarrollo con JQuery</h3>
-        <p>
-            - La separación de JavaScript y HTML: La biblioteca jQuery proporciona la sintaxis simple para añadir
-            eventos manipuladores a la DOM utilizando JavaScript,
-            en lugar de añadir eventos atributos HTML para llamar a funciones de JavaScript. Por lo tanto, alienta a los
-            desarrolladores a separar completamente el
-            código JavaScript del marcado HTML.
-
-            - Brevedad y claridad: JQuery promueve la brevedad y la claridad con funciones como funciones "chainable" y
-            nombres de funciones abreviados.
-
-            - Eliminación de incompatibilidades entre navegadores: Los motores de JavaScript de diferentes navegadores
-            difieren ligeramente, por lo que el código JavaScript que funciona para un navegador puede no funcionar para
-            otro. Al igual que otros kits de herramientas de JavaScript, jQuery maneja todas estas inconsistencias en
-            varios navegadores y proporciona una interfaz consistente que funciona en diferentes navegadores.
-
-            - Extensibilidad: Los nuevos eventos, elementos y métodos pueden agregarse fácilmente y luego reutilizarse
-            como un complemento.</p>
+            </article>
 
 
-    </article>
+            <article id="jquery">
+                <h3>Distribución</h3>
+
+                <button id="button">Ocultar/Mostrar Texto Ejemplo de Uso</button>
+
+                <div id="container">
+                    <p>La biblioteca JQuery normalmente se distribuye como un único archivo JavaScript que define todas
+                        sus
+                        interfaces, incluidas las funciones DOM,
+                        Eventos y Ajax. Se puede incluir dentro de una página web al vincularlo a una copia local, o al
+                        vincularlo a
+                        una de las muchas copias
+                        en los servidores públicos. JQuery tiene una red de entrega de contenido (conocido popularmente
+                        como
+                        CDN)
+                        alojada por MaxCDN.22​
+                        Google en el servicio Google Hosted Libraries y Microsoft también alojan la biblioteca.23​24​
+                    </p>
+
+                </div>
+
+                <img src="fotos/usoJquery.png" class="target" height="350" width="650">
 
 
-    <article id="jquery">
-        <h3>Distribución</h3>
 
-        <button id="button">Ocultar/Mostrar Texto Ejemplo de Uso</button>
 
-        <div id="container">
-            <p>La biblioteca JQuery normalmente se distribuye como un único archivo JavaScript que define todas sus
-                interfaces, incluidas las funciones DOM,
-                Eventos y Ajax. Se puede incluir dentro de una página web al vincularlo a una copia local, o al
-                vincularlo a
-                una de las muchas copias
-                en los servidores públicos. JQuery tiene una red de entrega de contenido (conocido popularmente como
-                CDN)
-                alojada por MaxCDN.22​
-                Google en el servicio Google Hosted Libraries y Microsoft también alojan la biblioteca.23​24​
-            </p>
 
+
+                <h3>Ventajas de jQuery</h3>
+                <p>Una de las características principales de la biblioteca jQuery es el manejo de eventos. La creación
+                    de
+                    eventos, como la función de clic del mouse
+                    y el envío de formularios, sólo requiere unas pocas líneas de código. Esto ayuda a mantener el
+                    código HTML
+                    limpio y libre de varios manejadores de eventos.
+                    Modificar los elementos HTML también es más fácil con su función de manipulación del Modelo de
+                    Objetos del
+                    Documento (DOM). La interfaz del navegador web,
+                    muy fácil de usar, te permite añadir, editar y eliminar elementos web utilizando varios métodos de
+                    eventos.El método AJAX, en particular, hace que jQuery
+                    sea ideal para desarrollar un sitio web responsivo utilizando las funciones AJAX. Esta función
+                    mejora la
+                    experiencia del usuario al simplificar las operaciones
+                    de petición HTTP sin recargar la página web.Además, jQuery viene con un montón de efectos de
+                    animación
+                    incorporados. Incluso te permite crear animaciones
+                    personalizadas compuestas por las propiedades CSS que elijas. Además, jQuery es compatible con todos
+                    los
+                    navegadores, por lo que es compatible con los
+                    navegadores más populares. También funciona con selectores CSS3 y con la sintaxis del lenguaje de
+                    rutas XML
+                    (XPath).
+                    Ten en cuenta que añadir scripts jQuery a un sitio web es más fácil a través de una red de
+                    distribución de
+                    contenidos (CDN). De esta manera, no tienes que descargar y almacenar el archivo de la biblioteca en
+                    la
+                    carpeta del sitio.</p>
+
+                <h3>Desventajas de jQuery</h3>
+                <p>A pesar de ser ligera, la biblioteca de jQuery es enorme. Como la base de código sigue creciendo, se
+                    tarda
+                    más en abrir el archivo JS, lo que supone una
+                    carga adicional para el ordenador del usuario.jQuery también dificulta el aprendizaje y el uso de
+                    JavaScript
+                    debido a su abstracción. Si bien simplifica la
+                    creación de eventos para los principiantes, realizar tareas complicadas como la manipulación del DOM
+                    requerirá un mayor conocimiento de JavaScript para obtener
+                    el resultado deseado.La mayor desventaja es el hecho de que jQuery no permite la
+                    retrocompatibilidad. Como
+                    jQuery tiene muchas versiones publicadas, tienes
+                    que alojar la biblioteca tú mismo y actualizarla periódicamente.</p>
+                <img src="fotos/Jqueryimag.png" class="target" height="350" width="650">
+
+
+            </article>
+
+            <article>
+                <h3>Conclusión</h3>
+                <p>jQuery es una de las bibliotecas de JavaScript más populares del mundo. Ofrece muchas ventajas a los
+                    desarrolladores web, por lo que aprender a utilizarla
+                    debería ser tu prioridad.El uso de la biblioteca jQuery te permite escribir menos código JavaScript
+                    sin
+                    dejar de obtener toda su funcionalidad. Esto te permite
+                    trabajar de forma más eficiente y centrarte en otras partes del proyecto.Esperamos que este tutorial
+                    sobre
+                    jQuery te permita comprender mejor qué es la
+                    biblioteca jQuery y cómo empezar a utilizarla. Si tienes más preguntas, asegúrate de dejar un
+                    comentario a
+                    continuación.</p>
+
+            </article>
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="bg-dark text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <h4>Redes Sociales</h4>
+                <!-- Facebook -->
+                <a class="btn btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn  btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn  btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn  btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn  btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <!-- Github -->
+                <a class="btn  btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-github"></i>
+                </a>
+            </section>
         </div>
 
-        <img src="fotos/usoJquery.png" class="target" height="350" width="650">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="index.html">HLC-Practica1.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
-
-
-
-
-
-        <h3>Ventajas de jQuery</h3>
-        <p>Una de las características principales de la biblioteca jQuery es el manejo de eventos. La creación de
-            eventos, como la función de clic del mouse
-            y el envío de formularios, sólo requiere unas pocas líneas de código. Esto ayuda a mantener el código HTML
-            limpio y libre de varios manejadores de eventos.
-            Modificar los elementos HTML también es más fácil con su función de manipulación del Modelo de Objetos del
-            Documento (DOM). La interfaz del navegador web,
-            muy fácil de usar, te permite añadir, editar y eliminar elementos web utilizando varios métodos de
-            eventos.El método AJAX, en particular, hace que jQuery
-            sea ideal para desarrollar un sitio web responsivo utilizando las funciones AJAX. Esta función mejora la
-            experiencia del usuario al simplificar las operaciones
-            de petición HTTP sin recargar la página web.Además, jQuery viene con un montón de efectos de animación
-            incorporados. Incluso te permite crear animaciones
-            personalizadas compuestas por las propiedades CSS que elijas. Además, jQuery es compatible con todos los
-            navegadores, por lo que es compatible con los
-            navegadores más populares. También funciona con selectores CSS3 y con la sintaxis del lenguaje de rutas XML
-            (XPath).
-            Ten en cuenta que añadir scripts jQuery a un sitio web es más fácil a través de una red de distribución de
-            contenidos (CDN). De esta manera, no tienes que descargar y almacenar el archivo de la biblioteca en la
-            carpeta del sitio.</p>
-
-        <h3>Desventajas de jQuery</h3>
-        <p>A pesar de ser ligera, la biblioteca de jQuery es enorme. Como la base de código sigue creciendo, se tarda
-            más en abrir el archivo JS, lo que supone una
-            carga adicional para el ordenador del usuario.jQuery también dificulta el aprendizaje y el uso de JavaScript
-            debido a su abstracción. Si bien simplifica la
-            creación de eventos para los principiantes, realizar tareas complicadas como la manipulación del DOM
-            requerirá un mayor conocimiento de JavaScript para obtener
-            el resultado deseado.La mayor desventaja es el hecho de que jQuery no permite la retrocompatibilidad. Como
-            jQuery tiene muchas versiones publicadas, tienes
-            que alojar la biblioteca tú mismo y actualizarla periódicamente.</p>
-        <img src="fotos/Jqueryimag.png" class="target" height="350" width="650">
-
-
-    </article>
-
-    <article>
-        <h3>Conclusión</h3>
-        <p>jQuery es una de las bibliotecas de JavaScript más populares del mundo. Ofrece muchas ventajas a los
-            desarrolladores web, por lo que aprender a utilizarla
-            debería ser tu prioridad.El uso de la biblioteca jQuery te permite escribir menos código JavaScript sin
-            dejar de obtener toda su funcionalidad. Esto te permite
-            trabajar de forma más eficiente y centrarte en otras partes del proyecto.Esperamos que este tutorial sobre
-            jQuery te permita comprender mejor qué es la
-            biblioteca jQuery y cómo empezar a utilizarla. Si tienes más preguntas, asegúrate de dejar un comentario a
-            continuación.</p>
-
-    </article>
-
-
-
-
-
-</section>
+</body>
 
 </html>

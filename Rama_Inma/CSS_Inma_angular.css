@@ -1,9 +1,3 @@
-/*Titulos*/
-
-/*@font-face {
-    font-family: "letra";
-    src: url(Roboto/Roboto-Black.ttf);
-}*/
 
 h1 {
     position: relative;
@@ -64,7 +58,7 @@ p{
     text-align: center;
 }
 
-button{
+.modif{
     text-align: center;
     text-decoration: #888;
     font-size: 30px;
@@ -83,6 +77,8 @@ body {
     background-color: rgb(80, 80, 80);
 }
 
+
+
 img{
     width: 90%;
     height: 90%;
@@ -96,39 +92,11 @@ img{
     
 }
 
-/*Encabezado
-header {
-    position: fixed;
-    width: 100%;
-    padding: 30px 100px;
-    background: linear-gradient(45deg, white, transparent);
-}
 
-#logo-main {
-    font-size: 70px;
-    color: lightskyblue;
-}
-
-.enlace-nav {
-    color: darkslateblue;
-    font-size: 20px;
-}
-
-aside {
-    width: 20%;
-    padding-left: 15px;
-    margin: 220px 50px 0 0;
-    margin-right:50px;
-    margin-right:50px;
-    float: right;
-    font-style: italic;
-    background-color: black;
-    border-radius: 30px;
-    font-size: 20px;
-}*/
 
 /*Sección*/
-section {
+#section-main{
+   
     margin: 50px;
     border: 8px double #888;
     border-radius: 200px 50px 200px 50px;
@@ -169,37 +137,15 @@ section img {
     text-align: center;
 }
 
-/*Tablas
-table, th, td {
-    border:1px solid black;
-}
 
-iframe{
-    display:block;
-    margin: auto;
-    margin-bottom: 40px;
-}
-
-
-
-/*#seccion-main {
-    width: 70%;
-    margin: 220px 0 280px 50px;
-    margin-bottom: 30%;
-    border: 8px double #888;
-    border-radius: 200px 50px 200px 50px;
-    padding: 70px;
-    background-color: #ccc;
-    float: left;
-}
 
 
 
 footer {
-    position: absolute;
+    
     width: 100%;
     bottom: 0px;
-}*/
+}
 
 /*video*/
 .section-video {
@@ -220,3 +166,24 @@ footer {
       width: 100%;
       z-index: -20;
   }
+
+  /*index*/
+  #logo-main {
+    font-size: 70px;
+    color: lightskyblue;
+}
+
+#logoDrop{
+   padding-left: 35px; 
+    color: lightskyblue;
+    font-size: 30pt;
+}
+
+/*Encabezado*/
+header {
+  
+    width: 100%;
+    padding: 30px 100px;
+    background: linear-gradient(45deg, white, transparent);
+    z-index: 5;
+}

@@ -8,15 +8,18 @@
 
     <title>PROWEB</title>
 
-    <!-- Enlace a hoja de estilos -->
+    <!-- Enlace a hoja de estilos Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
     <link rel="stylesheet" type="text/css" href="CSS_Inma_angular.css">
     <!-- Enlace a hoja de iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Icono de la pestaña -->
     <link rel="shortcut icon" href="favicon.svg" />
 
+    <!-- Enlace a hoja de JavaScript Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <script>
         function showAlert() {
@@ -29,126 +32,227 @@
     </script>
 </head>
 
+<body>
+
+    <header class="d-flex">
+
+        <a href="../index.html" class="d-flex align-items-center me-md-auto text-decoration-none">
+            <i id="logo-main" class="bi bi-github"></i>
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <h1>HLC-Practica2</h1>
+        </a>
+
+        <nav class="dropdown dropstart">
+            <button type="button" class="button" data-bs-toggle="dropdown">
+                <i id="logoDrop" class="bi bi-github"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Angular.html">Framework</a></li>
+                <li><a class="dropdown-item" href="../gameFroot/gameFroot.html">Juegos</a></li>
+                <li><a class="dropdown-item" href="../bootstrap/bootstrap.html">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="JQuery.html">JQuery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="seccion-main">
+            <!--<video src="fotos/Ondas.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg"></video>-->
+
+            <video id="vid" class="sleep-video" autoplay loop muted>
+                <source src="fotos/Ondas.mp4" type="video/mp4">
+
+            </video>
 
 
-<section id="seccion-main">
-    <!--<video src="fotos/Ondas.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg"></video>-->
-
-    <video id="vid" class="sleep-video" autoplay loop muted>
-        <source src="fotos/Ondas.mp4" type="video/mp4">
-
-    </video>
 
 
+            <h2>ANGULAR: El framework más utilizado desde 2021</h2>
+
+            <article>
+                <h3>¿Qué es Angular?</h3>
+                <img class="logo" src="fotos/angular.png" class="img-fluid">
+                <p>Angular es un Framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal
+                    es
+                    desarrollar
+                    aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de
+                    mejoras
+                    para este framework.
+                </p>
+
+                <h3>Versiones de Angular</h3>
+                <p>Primero, estaba el Angular original, llamado Angular 1 y eventualmente conocido como AngularJS. Luego
+                    vinieron Angular
+                    2, 3, 4, 5, 6, 7 hasta que finalmente, la versión actual, Angular 12, lanzada el 12/05/2021. Cada
+                    versión
+                    posterior de Angular
+                    mejora su predecesora, corrige errores, aborda problemas y se adapta a la creciente complejidad de
+                    las
+                    plataformas actuales.</p>
 
 
-    <h2>ANGULAR: El framework más utilizado desde 2021</h2>
-
-    <article>
-        <h3>¿Qué es Angular?</h3>
-        <img class="logo" src="fotos/angular.png" class="img-fluid">
-        <p>Angular es un Framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal es
-            desarrollar
-            aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de mejoras
-            para este framework.
-        </p>
-
-        <h3>Versiones de Angular</h3>
-        <p>Primero, estaba el Angular original, llamado Angular 1 y eventualmente conocido como AngularJS. Luego
-            vinieron Angular
-            2, 3, 4, 5, 6, 7 hasta que finalmente, la versión actual, Angular 12, lanzada el 12/05/2021. Cada versión
-            posterior de Angular
-            mejora su predecesora, corrige errores, aborda problemas y se adapta a la creciente complejidad de las
-            plataformas actuales.</p>
+            </article>
 
 
-    </article>
+            <article id="angular">
+                <h3>Características de Angular</h3>
+                <h5>Document Object Model (DOM)</h5>
+
+                <div class="row">
+                    <div class=".col-md-4 mb-4">
+                        <p>DOM (Document Object Model) trata un documento XML o HTML como una estructura de árbol en la
+                            que
+                            cada
+                            nodo representa
+                            una parte del documento.</p>
+                    </div>
+
+                    <div class=".col-md-8"><img class="img_base" src="fotos/DOM.png" class="img-fluid"></div>
+                </div>
 
 
-    <article id="angular">
-        <h3>Características de Angular</h3>
-        <h5>Document Object Model (DOM)</h5>
+                <h5>TypeScript</h5>
+                <p>TypeScript define un conjunto de tipos de JavaScript, lo que ayuda a los usuarios a escribir código
+                    JavaScript que es más
+                    fácil de entender. Todo el código TypeScript se compila con JavaScript y se puede ejecutar sin
+                    problemas
+                    en
+                    cualquier plataforma.
+                    TypeScript no es obligatorio para desarrollar una aplicación Angular. Sin embargo, es muy
+                    recomendable
+                    ya
+                    que ofrece una mejor
+                    estructura sintáctica, al tiempo que hace que la base de código sea más fácil de entender y
+                    mantener.
+                </p>
 
-        <div class="row">
-            <div class=".col-md-4 mb-4">
-                <p>DOM (Document Object Model) trata un documento XML o HTML como una estructura de árbol en la que cada
-                    nodo representa
-                    una parte del documento.</p>
-            </div>
 
-            <div class=".col-md-8"><img class="img_base" src="fotos/DOM.png" class="img-fluid"></div>
+                <h5>Data Binding (Enlace de datos)</h5>
+                <p>El enlace de datos (data binding) es un proceso que permite a los usuarios manipular elementos de la
+                    página
+                    web a través de
+                    un navegador web. Emplea HTML dinámico y no requiere secuencias de comandos ni programación
+                    complejas.
+                    El
+                    enlace de datos se
+                    utiliza en páginas web que incluyen componentes interactivos, como calculadoras, tutoriales, foros y
+                    juegos.
+                    También permite
+                    una mejor visualización incremental de una página web cuando las páginas contienen una gran cantidad
+                    de
+                    datos.
+                    Angular usa el enlace bidireccional. El estado del modelo refleja los cambios realizados en los
+                    elementos de
+                    la interfaz de
+                    suario correspondientes. Por el contrario, el estado de la interfaz de usuario refleja cualquier
+                    cambio
+                    en
+                    el estado del modelo.
+                    Esta característica permite que el marco conecte el DOM a los datos del modelo a través del
+                    controlador.
+                </p>
+
+                <h5>Testing (Pruebas)</h5>
+                <p>Angular usa el Framework de prueba Jasmine. Jasmine proporciona múltiples funcionalidades para
+                    escribir
+                    diferentes tipos
+                    de casos de prueba. Karma es el ejecutor de tareas para las pruebas que usa un archivo de
+                    configuración
+                    para
+                    configurar la
+                    puesta en marcha, los reportes y el framework de prueba.</p>
+
+                <button class="modif" onclick="modificarDom()">Probar DOM</button>
+
+            </article>
+
+            <article>
+                <h3>Arquitectura de Angular</h3>
+                <p>Angular es un marco modelo-vista-controlador (MVC) completo. Proporciona una guía clara sobre cómo se
+                    debe
+                    estructurar
+                    la aplicación y ofrece un flujo de datos bidireccional al tiempo que proporciona un DOM real.</p>
+                <img src="fotos/ARQUITECTURA.png" class="img-fluid, img_base" height="350" width="650">
+            </article>
+
+            <article>
+
+                <h3>Curso de Angular en español</h3>
+
+
+                <object data='https://www.youtube.com/embed/kqYuyACFVkE?autoplay=1' width='560px' height='315px'>
+                </object>
+
+
+
+
+            </article>
+
+            <article>
+
+
+
+                <button onclick="showAlert()">Descargar Curso Angular</button>
+
+
+            </article>
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="bg-dark text-center text-white ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <h4>Redes Sociales</h4>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-github"></i>
+                </a>
+            </section>
         </div>
 
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="index.html">HLC-Practica1.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
-        <h5>TypeScript</h5>
-        <p>TypeScript define un conjunto de tipos de JavaScript, lo que ayuda a los usuarios a escribir código
-            JavaScript que es más
-            fácil de entender. Todo el código TypeScript se compila con JavaScript y se puede ejecutar sin problemas en
-            cualquier plataforma.
-            TypeScript no es obligatorio para desarrollar una aplicación Angular. Sin embargo, es muy recomendable ya
-            que ofrece una mejor
-            estructura sintáctica, al tiempo que hace que la base de código sea más fácil de entender y mantener.</p>
+</body>
 
-
-        <h5>Data Binding (Enlace de datos)</h5>
-        <p>El enlace de datos (data binding) es un proceso que permite a los usuarios manipular elementos de la página
-            web a través de
-            un navegador web. Emplea HTML dinámico y no requiere secuencias de comandos ni programación complejas. El
-            enlace de datos se
-            utiliza en páginas web que incluyen componentes interactivos, como calculadoras, tutoriales, foros y juegos.
-            También permite
-            una mejor visualización incremental de una página web cuando las páginas contienen una gran cantidad de
-            datos.
-            Angular usa el enlace bidireccional. El estado del modelo refleja los cambios realizados en los elementos de
-            la interfaz de
-            suario correspondientes. Por el contrario, el estado de la interfaz de usuario refleja cualquier cambio en
-            el estado del modelo.
-            Esta característica permite que el marco conecte el DOM a los datos del modelo a través del controlador.</p>
-
-        <h5>Testing (Pruebas)</h5>
-        <p>Angular usa el Framework de prueba Jasmine. Jasmine proporciona múltiples funcionalidades para escribir
-            diferentes tipos
-            de casos de prueba. Karma es el ejecutor de tareas para las pruebas que usa un archivo de configuración para
-            configurar la
-            puesta en marcha, los reportes y el framework de prueba.</p>
-
-        <button onclick="modificarDom()">Probar DOM</button>
-
-    </article>
-
-    <article>
-        <h3>Arquitectura de Angular</h3>
-        <p>Angular es un marco modelo-vista-controlador (MVC) completo. Proporciona una guía clara sobre cómo se debe
-            estructurar
-            la aplicación y ofrece un flujo de datos bidireccional al tiempo que proporciona un DOM real.</p>
-        <img src="fotos/ARQUITECTURA.png" class="img-fluid, img_base" height="350" width="650">
-    </article>
-
-    <article>
-
-        <h3>Curso de Angular en español</h3>
-
-
-        <object data='https://www.youtube.com/embed/kqYuyACFVkE?autoplay=1' width='560px' height='315px'>
-        </object>
-
-
-
-
-    </article>
-
-    <article>
-
-
-
-        <button onclick="showAlert()">Descargar Curso Angular</button>
-
-
-    </article>
-
-
-
-
-</section>
 
 </html>
