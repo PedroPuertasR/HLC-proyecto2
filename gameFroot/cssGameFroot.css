@@ -7,6 +7,25 @@ header {
     color: #3d3242;
 }
 
+#logoDrop {
+    color: #3d3242;
+}
+
+.button {
+    background-color: #e18942;
+    box-shadow: 0 9px #7a3e48;
+}
+
+.button:hover {
+    background-color: #b95835
+}
+
+.button:active {
+    background-color: #b95835;
+    box-shadow: 0 5px #3d3242;
+    transform: translateY(4px);
+}
+
 body {
     background-color: #3d3242;
 }
@@ -14,7 +33,7 @@ body {
 aside {
     position: fixed;
     right: 0;
-    background: #7a3e48; 
+    background: #7a3e48;
 }
 
 hr {
@@ -37,7 +56,7 @@ footer {
 }
 
 article {
-    background:#eecd86;
+    background: #eecd86;
     border: 3px dashed #7a3e48;
 }
 
@@ -45,12 +64,13 @@ h4 {
     margin-bottom: 30px;
 }
 
-div > p {
+div>p {
     color: dimgrey;
     font-weight: bold;
 }
 
-article > p, li > p{
+article>p,
+li>p {
     padding: 5px;
     margin: 20px;
     border: 2px solid #e18942;

@@ -51,8 +51,6 @@ img {
 
 }
 
-
-
 section {
     margin: 50px;
     border: 10px double rgb(77, 51, 247);
@@ -60,7 +58,6 @@ section {
     padding: 80px;
     background-color: rgb(240, 240, 248);
 }
-
 
 article {
     font-size: 18px;
@@ -73,8 +70,6 @@ article {
     /*border-radius: 35px 0px 35px 0px;*/
     box-shadow: 10px 5px 5px rgb(106, 146, 240);
     text-align: center;
-
-
 }
 
 section img {
@@ -132,7 +127,6 @@ seccion-main {
 }
 
 #logoDrop{
-   padding-left: 35px; 
     color: lightskyblue;
     font-size: 30pt;
 }
